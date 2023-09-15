@@ -3,7 +3,7 @@ greeting:
 	echo "Hello"
 math: 
 	expr 2 + 2
-all: directories downloads freshdata
+all: directories downloads freshdata filecheck
 
 directories:
 	-mkdir tmp
